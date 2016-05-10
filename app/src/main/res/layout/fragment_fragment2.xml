@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.assignment.Fragment2">
+
+    <TextView
+        android:text="Image From Internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textColor="#ea0c08"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="#3dff00ff"
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+    <Button
+        android:id="@+id/buttonForImage1"
+        android:text="Image 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp">
+
+        <ImageView
+            android:background="#3dff00ff"
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/buttonForImage2"
+            android:text="Image 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+                </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="#3dff00ff"
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <Button
+                android:id="@+id/buttonForImage3"
+                android:text="Image 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp">
+
+            <ImageView
+                android:background="#3dff00ff"
+                android:id="@+id/imageView4"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <Button
+                android:id="@+id/buttonForImage4"
+                android:text="Image 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Image From Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textColor="#e9210f"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="#3dff00ff"
+                android:id="@+id/imageView5"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <Button
+                android:id="@+id/buttonForImage5"
+                android:text="Image 5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp">
+
+            <ImageView
+                android:background="#3dff00ff"
+                android:id="@+id/imageView6"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <Button
+                android:id="@+id/buttonForImage6"
+                android:text="Image 6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
